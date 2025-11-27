@@ -3,7 +3,7 @@ import { Navbar } from "../../components"
 import VideoBackground from "../../components/VideoBackground/VideoBackground"
 import video from "../../assets/Home-bg.mp4"
 {/* import { AboutUs } from "./sections" */}
-import { Hero } from "../../components/hero"
+import { Hero } from "../../components/HeroSection"
 
 export function Home(): JSX.Element {
   return (
