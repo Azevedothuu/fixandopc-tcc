@@ -4,7 +4,7 @@ type TypographyProps = {
   size?: 'display-xl' | 'heading-lg' | 'heading-md' | 'md' | 'sm' | 'xs'
   children: ReactNode
   className?: string
-  as?: 'h1' | 'h2' | 'h3' | 'p' | 'span' | 'div'
+  as?: 'h1' | 'h2' | 'h3' | 'p' | 'span' 
 }
 
 const sizeMap = {

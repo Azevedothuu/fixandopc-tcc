@@ -3,7 +3,8 @@ import { Navbar } from "../../components"
 import VideoBackground from "../../components/VideoBackground/VideoBackground"
 import video from "../../assets/Home-bg.mp4"
 {/* import { AboutUs } from "./sections" */}
-import { Hero } from "../../components/HeroSection"
+import { Hero } from "./sections"
+import { AboutUs } from "./sections"
 
 export function Home(): JSX.Element {
   return (
@@ -20,7 +21,7 @@ export function Home(): JSX.Element {
 
         {/* Sections below will scroll normally */}
         <section className=" ">
-          { /*<AboutUs /> */}
+          <AboutUs /> 
         </section>
       </main>
     </>

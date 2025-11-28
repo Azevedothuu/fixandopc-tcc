@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
 @import "tailwindcss";
 
 @theme {
@@ -101,6 +103,9 @@
   --color-neutral-800: #32322d;
   --color-neutral-900: #1f1f1a;
   --color-neutral-950: #0d0d0a;
+
+  /*Fonte*/
+  --font-sans: "Ubunto", sans-serif;
 }
 
 /* =============================== */
@@ -115,6 +120,8 @@ html {
 body {
   /* Aplica classes Tailwind para estilização base */
   @apply font-sans antialiased;
+  font-family: var(--font-sans);
+  height: 100%;
 
   /* Define a fonte personalizada do sistema */
   font-family: var(--font-sans);

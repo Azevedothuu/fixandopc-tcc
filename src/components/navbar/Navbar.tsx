@@ -1,5 +1,6 @@
 import { type JSX } from "react"
 import logo from '../../assets/Logo.png'
+import { Typography } from "../typography"
 
 export function Navbar(): JSX.Element {
   return (
@@ -13,7 +14,7 @@ export function Navbar(): JSX.Element {
             >
               <img
                 src={logo}
-                className="w-10"
+                className="w-13"
                 alt="Fixando PC"
               />
               
@@ -30,15 +31,23 @@ export function Navbar(): JSX.Element {
                     className="block py-2 px-3  bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
                     aria-current="page"
                   >
-                    Home
+                    <Typography
+                    as="p"
+                    >
+                      Home
+                    </Typography>
                   </a>
                 </li>
-                <li>
+                <li className="flex items-center">
                   <a
                     href="#"
                     className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
                   >
-                    About
+                    <Typography
+                    as="p"
+                    >
+                      About
+                    </Typography>
                   </a>
                 </li>
               </ul>
