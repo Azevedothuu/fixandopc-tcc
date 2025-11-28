@@ -23,7 +23,7 @@ export function AboutUs () : JSX.Element {
 
             <div className="p-4">
                 <Typography
-                className="text-center leading-relaxed shadow-2xl rounded-full text-xl"
+                className="text-center leading-loose text-lg"
                 >                
                 Somos uma equipe focada em aproximar as pessoas da tecnologia. Criamos este fórum para oferecer suporte técnico simples,<br/>
                 confiável e gratuito, reunindo usuários leigos e profissionais em um mesmo espaço. Aqui, valorizamos a troca de conhecimento, a colaboração e a autonomia:<br/>
