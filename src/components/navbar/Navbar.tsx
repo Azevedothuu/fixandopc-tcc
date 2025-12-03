@@ -33,7 +33,7 @@ export function Navbar(): JSX.Element {
             <AiOutlineTeam />
             <a 
             className="pt-1"
-            href="/">
+            href="/Community">
               Comunidade
             </a>
 
@@ -41,7 +41,7 @@ export function Navbar(): JSX.Element {
             <AiFillTool />
             <a 
             className="pt-1"
-            href="/">
+            href="/LearnIMC">
             Aprender IMC
             </a>
           </li>
