@@ -3,8 +3,9 @@ import { Navbar } from "../../components"
 import VideoBackground from "../../components/VideoBackground/VideoBackground"
 import video from "../../assets/Home-bg.mp4"
 {/* import { AboutUs } from "./sections" */}
-import { Hero } from "./sections"
+import { Hero, Learn } from "./sections"
 import { AboutUs } from "./sections"
+import { Footer } from "@/components/footer"
 
 export function Home(): JSX.Element {
   return (
@@ -12,7 +13,7 @@ export function Home(): JSX.Element {
       <Navbar />
 
       <main className="relative">
-        <section className="relative min-h-screen">
+        <section className="relative min-h-screen ">
           {/* Video  absolute background inside the hero */}
           <VideoBackground src={video} coverType="absolute" />
           {/* Hero content - above the video */}
@@ -22,10 +23,12 @@ export function Home(): JSX.Element {
         {/* Sections below will scroll normally */}
         <section className=" ">
           <AboutUs /> 
+          <Learn />
         </section>
       </main>
+
+      <Footer />
     </>
   )
 }
 
-export default Home
