@@ -7,7 +7,7 @@ import { AiFillHome,
 
 export function Navbar(): JSX.Element {
   return (
-    <header className="fixed top-0 left-0 w-full bg-neutral-primary shadow-md z-50">
+    <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <nav className="flex items-center justify-between max-w-6xl mx-auto px-6 py-3">
         
         {/* Logo */}
