@@ -5,7 +5,7 @@ import { Typography } from "../../../components/typography"
 
 export function AboutUs(): JSX.Element {
   return (
-    <section className="p-10 " id="sobrenos">
+    <section className="container mx-auto py-10" id="sobrenos">
       <motion.div
         className="flex justify-center"
         initial={{ opacity: 0, y: 40 }}
@@ -13,7 +13,7 @@ export function AboutUs(): JSX.Element {
         transition={{ duration: 0.6 }}
       >
         <img 
-          className="w-70 rounded-4xl mb-7 border-primary-300 shadow-2xl"
+          className="w-70 rounded-4xl mb-7 border-primary-300 shadow-md"
           src={logo}
         />
       </motion.div>
@@ -24,13 +24,12 @@ export function AboutUs(): JSX.Element {
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6 }}
       >
-        <Typography className="text-5xl p-5 ">
+        <Typography className="text-5xl my-6">
           Sobre Nós
         </Typography>
       </motion.div>
 
       <motion.div
-        className="p-4"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
@@ -51,7 +50,7 @@ export function AboutUs(): JSX.Element {
         transition={{ duration: 0.7 }}
       >
         <iframe
-          className="rounded-4xl shadow-2xl"
+          className="rounded-4xl shadow-md mt-6"
           width="681"
           height="383"
           src="https://www.youtube.com/embed/-e9kEqR4XLc"
