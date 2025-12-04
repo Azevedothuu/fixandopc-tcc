@@ -4,6 +4,7 @@ import { AiFillHome,
   AiOutlineTeam,
   AiFillTool
  } from "react-icons/ai"
+import { Button } from "../Button"
 
 export function Navbar(): JSX.Element {
   return (
@@ -23,7 +24,7 @@ export function Navbar(): JSX.Element {
           <li className="hover:text-primary-800 font-bold transition-colors cursor-pointer flex items-center gap-1">
             <AiFillHome />
             <a 
-            className="pt-1"
+            className="pt-1 text-md"
             href="/">
             Início
             </a>
@@ -32,7 +33,7 @@ export function Navbar(): JSX.Element {
           <li className="hover:text-primary-800 font-bold transition-colors cursor-pointer flex items-center gap-1">
             <AiOutlineTeam />
             <a 
-            className="pt-1"
+            className="pt-1 text-md"
             href="/Community">
               Comunidade
             </a>
@@ -40,13 +41,18 @@ export function Navbar(): JSX.Element {
           </li><li className="hover:text-primary-800 font-bold transition-colors cursor-pointer flex items-center gap-1">
             <AiFillTool />
             <a 
-            className="pt-1"
+            className="pt-1 text-md"
             href="/LearnIMC">
             Aprender IMC
             </a>
           </li>
-          
         </ul>
+
+        <div >
+          <Button 
+          
+          />
+        </div>
 
       </nav>
     </header>

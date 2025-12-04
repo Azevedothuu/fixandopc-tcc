@@ -1,18 +1,19 @@
-import { Typography } from "@/components/typography";
-import type { JSX } from "react";
+import {  Navbar } from "@/components"
+import type { JSX } from "react"
 
-
-export function Community (): JSX.Element {
-
-    return (
-        <>
-        <div className="justify-center flex bg-primary-200">
-
-        <Typography>
-            Comunidade
-        </Typography>
-        </div>
-        </>
-    )
+export function Community(): JSX.Element {
+  return (
+    <>
+      <div
+        id="community"
+        className="min-h-screen w-full bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url('/src/assets/background.jpg')",
+        }}
+      >
+        <Navbar/>
+      </div>
+    </>
+  )
 }
 

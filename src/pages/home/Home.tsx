@@ -15,13 +15,21 @@ export function Home(): JSX.Element {
       <main className="relative">
         <section className="relative min-h-screen ">
           {/* Video  absolute background inside the hero */}
-          <VideoBackground src={video} coverType="absolute" />
+          <VideoBackground src={video} coverType="absolute" 
+          />
           {/* Hero content - above the video */}
           <Hero/>
         </section>
 
         {/* Sections below will scroll normally */}
-        <section className=" ">
+        <section style={{
+    backgroundImage: "url('/src/assets/background.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    width: "100%",
+    height: "300vh",
+  }}>
           <AboutUs /> 
           <Learn />
         </section>

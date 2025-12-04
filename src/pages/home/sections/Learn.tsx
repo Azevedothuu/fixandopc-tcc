@@ -3,10 +3,12 @@ import type { JSX } from "react"
 
 export function Learn(): JSX.Element {
   return (
-    <section className="p-10  " id="Learn">
+    <section className="p-10 " id="Learn"
+    
+    >
       <div className="flex w-full justify-center">
         <div>
-          <Typography className="text-5xl p-5 text-primary-700">
+          <Typography className="text-5xl p-8 font-bold   text-primary-700">
             Aprenda IMC
           </Typography>
         </div>
@@ -17,7 +19,7 @@ export function Learn(): JSX.Element {
           <Typography
           as="p"
           size="md"
-          className="leading-loose"
+          className="leading-loose text-white "
           >
             O IMC — Instalação e Manutenção de Computadores é um projeto
             desenvolvido para democratizar o conhecimento técnico, oferecendo ao
