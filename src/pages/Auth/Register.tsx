@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { FormRegister } from "@componentes/Form";
+import { FormRegister } from "@/components/Form";
 import { VideoBackground } from "@/components";
 import video from '@assets/Home-bg.mp4'
 

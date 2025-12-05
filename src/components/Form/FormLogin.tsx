@@ -23,9 +23,9 @@ export const FormLogin = ({
   return (
     <StyledWrapper>
       <div className="container">
-        <input type="checkbox" id="signup_toggle" />
 
         <form className="form" onSubmit={handleLogin}>
+        <input type="checkbox" id="signup_toggle" />
           
           <div className="form_front">
             <div className="form_details">Login</div>

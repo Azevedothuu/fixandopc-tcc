@@ -36,3 +36,5 @@ export async function registerApi(body: { name: string; email: string; password:
     body: JSON.stringify(body),
   });
 }
+
+

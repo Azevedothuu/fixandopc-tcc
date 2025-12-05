@@ -3,7 +3,11 @@ import logo from "../../assets/Logo.png"
 
 export function Footer(): JSX.Element {
   return (
-    <footer className="w-full bg-neutral-primary text-white bg-black py-8"
+    <footer className="w-full bg-neutral-primary text-white py-8"
+    style={{
+          backgroundImage: "url('/src/assets/background.jpg')",
+          backgroundSize: "cover"
+        }}
     >
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
         
